@@ -1,7 +1,7 @@
 install:
-	@npm install -g purescript pulp pscid
+	@npm install -g purescript pulp pscid chokidar-cli
 
 watch:
-	@pscid
+	@chokidar src/*.purs -c 'pulp run'
 
 .PHONY: install watch
