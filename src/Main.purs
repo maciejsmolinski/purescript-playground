@@ -34,7 +34,7 @@ main = do
   log $ (<>) "2. " $ show person2
   log $ (<>) "3. " $ show maybePerson1
   log $ (<>) "4. " $ show maybePerson2
-  log $ (<>) "4. " $ show maybePerson3
+  log $ (<>) "5. " $ show maybePerson3
 
   log ""
   log ""
