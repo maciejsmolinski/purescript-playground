@@ -1,8 +1,6 @@
 module Types where
 
 import Prelude
-import Data.Ordering (Ordering(..))
-
 
 newtype Person = Person
   { name :: String
