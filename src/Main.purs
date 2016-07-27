@@ -1,24 +1,40 @@
 module Main where
 
 import Prelude
+import Data.Maybe (Maybe(..))
 import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console (CONSOLE, log)
 import Types (Person(..))
 
+createPerson :: String -> Int -> Person
+createPerson name age =
+  Person { name: name, age: age }
 
 person1 :: Person
-person1 = Person { name: "John", age: 18 }
+person1 = createPerson "John" 18
 
 person2 :: Person
-person2 = Person { name: "Sam", age: 20 }
+person2 = createPerson "Sam" 20
+
+maybePerson1 :: Maybe Person
+maybePerson1 = createPerson <$> Just "Joe" <*> Nothing
+
+maybePerson2 :: Maybe Person
+maybePerson2 = createPerson <$> Nothing <*> Just 27
+
+maybePerson3 :: Maybe Person
+maybePerson3 = createPerson <$> Just "Joe" <*> Just 27
 
 main :: forall e. Eff (console :: CONSOLE | e) Unit
 main = do
   log ""
   log "-- Person Data --"
   log ""
-  log $ show person1
-  log $ show person2
+  log $ (<>) "1. " $ show person1
+  log $ (<>) "2. " $ show person2
+  log $ (<>) "3. " $ show maybePerson1
+  log $ (<>) "4. " $ show maybePerson2
+  log $ (<>) "4. " $ show maybePerson3
 
   log ""
   log ""
