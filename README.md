@@ -12,7 +12,7 @@ Use `make watch` to compile and execute code on every file change.
 
 ## Sample output:
 
-![](https://cdn.pbrd.co/images/1waC9ixWz.png)
+![](https://cdn.pbrd.co/images/1x7bWKbML.png)
 
 ## Stay in Touch
 
