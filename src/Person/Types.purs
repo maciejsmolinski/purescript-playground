@@ -1,4 +1,4 @@
-module Types where
+module Person.Types where
 
 import Prelude
 
