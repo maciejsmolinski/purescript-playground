@@ -2,7 +2,7 @@ install-globals:
 	@npm install -g purescript pulp pscid chokidar-cli bower
 
 install-local:
-	bower install purescript-maybe purescript-randoma
+	bower install purescript-maybe purescript-random
 
 install: install-globals install-local
 
