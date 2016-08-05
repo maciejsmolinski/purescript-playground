@@ -4,4 +4,4 @@
 /output/
 /.psci*
 /src/.webpack.js
-/dest/*.s
+/dest/*.js
