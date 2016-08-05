@@ -2,7 +2,7 @@ install-globals:
 	@npm install -g purescript pulp pscid chokidar-cli bower minify
 
 install-local:
-	@bower install purescript-maybe purescript-random
+	@bower install purescript-maybe purescript-random purescript-halogen && npm install virutal-dom
 
 install: install-globals install-local
 
