@@ -9,6 +9,7 @@ Install PureScript and project dependencies with `make install` command.
 ## Develop & Run
 
 Use `make watch` to compile and execute code on every file change.
+Use `make build` to build JS file to be executed on `index.html` page
 
 ## Sample output:
 
