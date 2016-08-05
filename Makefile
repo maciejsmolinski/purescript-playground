@@ -12,4 +12,7 @@ build:
 watch:
 	@chokidar src/*.purs src/**/*.purs -c 'clear && pulp run'
 
-.PHONY: install install-globals install-local watch build
+watchbuild:
+	@chokidar src/*.purs src/**/*.purs -c 'clear && make build'
+
+.PHONY: install install-globals install-local watch build watchbuild
