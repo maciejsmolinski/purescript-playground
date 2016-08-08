@@ -10,9 +10,6 @@ build:
 	@pulp browserify --to dest/main.js && minify dest/main.js > dest/main.min.js
 
 watch:
-	@chokidar src/*.purs src/**/*.purs -c 'clear && pulp run'
-
-watchbuild:
 	@chokidar src/*.purs src/**/*.purs -c 'clear && make build'
 
-.PHONY: install install-globals install-local watch build watchbuild
+.PHONY: install install-globals install-local watch build
