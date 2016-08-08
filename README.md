@@ -14,7 +14,7 @@ Install PureScript and project dependencies with `make install` command.
 
 ## Sample output:
 
-![](http://g.recordit.co/3kydbEfXVl.gif)
+![](http://g.recordit.co/OVVAsxFAlG.gif)
 
 ## Stay in Touch
 
