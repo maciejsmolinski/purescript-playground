@@ -1,15 +1,15 @@
 install-globals:
-	@npm install -g purescript pulp pscid chokidar-cli bower minify
+	@npm install -g purescript pulp pscid bower minify
 
 install-local:
-	@bower install purescript-maybe purescript-random purescript-halogen && npm install virutal-dom
+	@bower install && npm install --no-progress
 
 install: install-globals install-local
 
-build:
-	@pulp browserify --to dest/main.js && minify dest/main.js > dest/main.min.js
-
 watch:
-	@chokidar src/*.purs src/**/*.purs -c 'clear && make build'
+	@pulp --watch build --to dest/main.min.js
+
+build:
+	@pulp browserify --optimise --to dest/main.js && minify dest/main.js > dest/main.min.js
 
 .PHONY: install install-globals install-local watch build
