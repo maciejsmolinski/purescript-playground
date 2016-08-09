@@ -7,9 +7,12 @@ install-local:
 install: install-globals install-local
 
 watch:
-	@pulp --watch build --to dest/main.min.js
+	@pulp --watch browserify --optimise --to dest/main.js
 
 build:
-	@pulp browserify --optimise --to dest/main.js && minify dest/main.js > dest/main.min.js
+	@pulp browserify --optimise --to dest/main.js
 
-.PHONY: install install-globals install-local watch build
+release: build
+	@minify dest/main.js > dest/main.min.js && mv dest/main.min.js dest/main.js
+
+.PHONY: install install-globals install-local watch build release

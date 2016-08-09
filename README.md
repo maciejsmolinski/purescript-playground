@@ -9,7 +9,8 @@ Install PureScript and project dependencies with `make install` command.
 ## Develop & Run
 
 * Use `make watch` to compile and execute code on every file change.
-* Use `make build` to build JS file to be executed on `index.html` page once.
+* Use `make build` to build non-minified JS file to be executed on `index.html`.
+* Use `make release` to build minified JS file to be executed on `index.html`.
 * Run `open index.html` to see the output file in action
 
 ## Sample output:
