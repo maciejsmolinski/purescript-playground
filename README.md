@@ -2,9 +2,11 @@
 
 PureScript language Playground
 
-## Dependencies
+## Installation
 
-Install PureScript and project dependencies with `make install` command.
+* Clone repository with `git clone https://github.com/maciejsmolinski/purescript-playground.git`
+* Open directory `cd purescript-playground`
+* Install PureScript and project dependencies with `make install` command
 
 ## Develop & Run
 
