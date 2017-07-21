@@ -1,9 +1,13 @@
 module Main where
 
 import Prelude
-import Control.Monad.Eff (Eff)
-import Control.Monad.Eff.Console (CONSOLE, log)
 
-main :: forall e. Eff (console :: CONSOLE | e) Unit
-main = do
-  log "Hello sailor!"
+import App.Main as AM
+import Control.Monad.Eff (Eff)
+import Halogen.Aff as HA
+import Halogen.VDom.Driver (runUI)
+
+main :: Eff (HA.HalogenEffects ()) Unit
+main = HA.runHalogenAff do
+  body <- HA.awaitBody
+  runUI AM.main unit body
