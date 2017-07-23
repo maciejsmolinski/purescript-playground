@@ -25,7 +25,7 @@ Demos: http://purescript-playground.surge.sh/
 
 ![](https://cdn.pbrd.co/images/GCiImVr.gif)
 
-# Purpose od the repository
+# Purpose of the repository
 
 This repository is meant to be a playground so that everybody can learn the language, break things, change things or even improve them.
 
