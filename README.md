@@ -8,7 +8,21 @@
 * Install [pulp](https://github.com/purescript-contrib/pulp) `npm install -g pulp`
 * Install [bower](https://github.com/bower/bower) `npm install -g bower`
 
-# Reasoning
+# Projects
+
+## Simple Todo List
+
+* Dependencies:
+  * [Halogen](https://github.com/slamdata/purescript-halogen)
+* Installation
+  * Clone the repository with `git clone https://github.com/maciejsmolinski/purescript-playground.git && cd todo`
+  * Install all dependencies with `bower install`
+  * Build the project with `npm run build` (or `npm run watch` if you want to build continuously)
+* Now you're ready to open the project with `npm run open` or simply open `index.html` in your browser
+
+![](https://cdn.pbrd.co/images/GCiImVr.gif)
+
+# Purpose od the repository
 
 This repository is meant to be a playground so that everybody can learn the language, break things, change things or even improve them.
 
@@ -18,5 +32,4 @@ Thanks for the interest and taking your time to visit the repository!
 
 # Stay in touch
 
-Have questions? Raise an issue or contact me on twitter: @maciejsmolinski
-
+Have questions? Raise an issue or contact me on twitter: [@maciejsmolinski](https://twitter.com/maciejsmolinski)
