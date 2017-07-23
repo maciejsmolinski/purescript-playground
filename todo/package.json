@@ -2,5 +2,10 @@
   "name": "todo",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "pulp build --to output/build.js",
+    "watch": "pulp build --watch --to output/build.js",
+    "open": "open ./index.html"
+  }
 }
