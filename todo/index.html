@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Simple Todo List - PureScript Playground</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/site.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <style>
+      body {
+        background: #eee;
+      }
+
+      .helpers.with-top-gap {
+        margin-top: 5rem;
+      }
+      .helpers.with-top.gap.small {
+        margin-top: 3rem;
+      }
+      .helpers.centered {
+        text-align: center;
+      }
+      .helpers.is-actionable {
+        cursor: pointer;
+      }
+      .helpers.is-right-aligned {
+        text-align: right;
+      }
+      .helpers.is-medium {
+        font-size: 90%;
+      }
+      .helpers.is-small {
+        font-size: 80%;
+      }
+      .helpers.is-tiny {
+        font-size: 70%;
+      }
+      .helpers.is-mini {
+        font-size: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row helpers with-top-gap centered">
+        <h3>
+          Simple Todo List - PureScript Playground
+        </h3>
+        <p>
+          <a href="../index.html">
+            Back to all Demos
+          </a>
+          •
+          <a href="https://github.com/maciejsmolinski/purescript-playground/tree/master/todo" target="_blank">
+            View Source
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container helpers with-top-gap small">
+      <div class="row">
+        <div data-module="Main"></div>
+      </div>
+    </div>
+
+    <script src="output/build.js"></script>
+  </body>
+</html>
