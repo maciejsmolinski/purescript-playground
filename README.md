@@ -2,6 +2,8 @@
 
 [PureScript](http://www.purescript.org/) playground repository is supposed to consist of tiny projects that are easy to scan and reason about so that everybody can learn the language quickly by example.
 
+Demos: http://purescript-playground.surge.sh/
+
 # Prerequisites
 
 * Install [PureScript](http://www.purescript.org/) `npm install -g purescript`
@@ -12,6 +14,7 @@
 
 ## Simple Todo List
 
+* Demo: http://purescript-playground.surge.sh/todo
 * Dependencies:
   * [Halogen](https://github.com/slamdata/purescript-halogen)
 * Installation
