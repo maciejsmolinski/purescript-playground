@@ -37,4 +37,4 @@ Thanks for the interest and taking your time to visit the repository!
 
 ## Stay in touch
 
-Have questions? Raise an issue or contact me on twitter: [@maciejsmolinski](https://twitter.com/maciejsmolinski)
+Have questions? Raise an [issue](https://github.com/maciejsmolinski/purescript-playground/issues) or contact me on twitter: [@maciejsmolinski](https://twitter.com/maciejsmolinski)
