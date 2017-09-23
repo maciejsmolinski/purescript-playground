@@ -4,28 +4,30 @@
 
 Demos: http://purescript-playground.surge.sh/
 
-# Prerequisites
+## Prerequisites
 
+* Install [Node.js](https://nodejs.org/en/) following instructions on the website
 * Install [PureScript](http://www.purescript.org/) `npm install -g purescript`
 * Install [pulp](https://github.com/purescript-contrib/pulp) `npm install -g pulp`
 * Install [bower](https://github.com/bower/bower) `npm install -g bower`
 
-# Projects
+## Projects
 
-## Simple Todo List
+### Simple Todo List
 
 * Demo: http://purescript-playground.surge.sh/todo
 * Dependencies:
   * [Halogen](https://github.com/slamdata/purescript-halogen)
-* Installation
-  * Clone the repository with `git clone https://github.com/maciejsmolinski/purescript-playground.git && cd todo`
+* Installation:
+  * Clone the repository with `git clone https://github.com/maciejsmolinski/purescript-playground.git && cd purescript-playground/todo`
   * Install all dependencies with `bower install`
-  * Build the project with `npm run build` (or `npm run watch` if you want to build continuously)
-* Now you're ready to open the project with `npm run open` or simply open `index.html` in your browser
+  * Build the project: `npm run build`
+    * To watch for filechanges and re-build run: `npm run dev` instead
+* When done open the project with `npm run open` or simply open `index.html` in your browser
 
 ![](https://cdn.pbrd.co/images/GCiImVr.gif)
 
-# Purpose of the repository
+## Purpose of the repository
 
 This repository is meant to be a playground so that everybody can learn the language, break things, change things or even improve them.
 
@@ -33,6 +35,6 @@ Feel free to create pull requests if you find these examples useful. Also, pleas
 
 Thanks for the interest and taking your time to visit the repository!
 
-# Stay in touch
+## Stay in touch
 
 Have questions? Raise an issue or contact me on twitter: [@maciejsmolinski](https://twitter.com/maciejsmolinski)
