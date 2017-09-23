@@ -1,0 +1,14 @@
+{
+  "name": "randomuser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "pulp build --to output/build.js",
+    "dev": "pulp --watch build --to output/build.js",
+    "open": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
