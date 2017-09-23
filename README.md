@@ -7,8 +7,8 @@ Demos: http://purescript-playground.surge.sh/
 ## Prerequisites
 
 * Install [Node.js](https://nodejs.org/en/) following instructions on the website
-* Install [PureScript](http://www.purescript.org/) `npm install -g purescript`
-* Install [pulp](https://github.com/purescript-contrib/pulp) `npm install -g pulp`
+* Install [PureScript](http://www.purescript.org/) `npm install -g purescript@0.11.6`
+* Install [pulp](https://github.com/purescript-contrib/pulp) `npm install -g pulp@11.0.0`
 * Install [bower](https://github.com/bower/bower) `npm install -g bower`
 
 ## Projects
