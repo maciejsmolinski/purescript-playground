@@ -5,7 +5,10 @@
   "license": "MIT",
   "scripts": {
     "build": "pulp build --to output/build.js",
-    "watch": "pulp build --watch --to output/build.js",
-    "open": "open ./index.html"
+    "dev": "pulp --watch build --to output/build.js",
+    "open": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
   }
 }
